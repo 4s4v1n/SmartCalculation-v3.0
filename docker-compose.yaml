@@ -1,0 +1,30 @@
+version: "3.9"
+
+networks:
+  dev-network:
+    driver: bridge
+
+services:
+  frontend:
+    container_name: frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    restart: always
+    networks:
+      - dev-network
+    depends_on:
+      - backend
+
+  backend:
+    container_name: backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    restart: always
+    networks:
+      - dev-network

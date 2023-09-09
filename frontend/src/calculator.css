@@ -1,0 +1,126 @@
+.calculator-container {
+    width: 700px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    padding: 10px;
+
+    text-align: center;
+    background: #FFFFFF;
+    border-color: transparent;
+}
+
+.expression-input {
+    margin: 20px;
+    width: 650px;
+    height: 100px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+
+    color: #000000;
+    background: #FFFFFF;
+
+
+    text-align: right;
+    font-size: 32px;
+    font-family: 'JetBrainsMono';
+}
+
+.x-label {
+    margin: 2px;
+    width: 325px;
+    height: 50px;
+
+    color: #000000;
+    background: #FFFFFF;
+
+    text-align: center;
+    font-size: 32px;
+    font-family: 'JetBrainsMono';
+}
+
+.x-input {
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+
+    text-align: right;
+    font-size: 32px;
+    font-family: 'JetBrainsMono';
+}
+
+.dark-gray-button {
+    margin: 2px;
+    width: 90px;
+    height: 90px;
+    border: none;
+    outline: none;
+
+    color: #000000;
+    background: #FFFFFF;
+
+    font-size: 32px;
+    font-family: 'JetBrainsMono';
+}
+
+.light-gray-button {
+    margin: 2px;
+    width: 90px;
+    height: 90px;
+    border: none;
+    outline: none;
+
+    color: #777777;
+    background: #FFFFFF;
+
+    font-size: 32px;
+    font-family: 'JetBrainsMono';
+}
+
+.colored-button {
+    margin: 2px;
+    width: 90px;
+    height: 90px;
+    border: none;
+    outline: none;
+
+    color: #FF7F50;
+    background: #FFFFFF;
+
+    font-size: 32px;
+    font-family: 'JetBrainsMono';
+}
+
+.equal-button {
+    margin: 2px;
+    width: 184px;
+    height: 90px;
+    border: none;
+    outline: none;
+
+    color: #777777;
+    background: #FFFFFF;
+
+    font-size: 32px;
+    font-family: 'JetBrainsMono';
+}
+
+.history-button {
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+
+    color: #000000;
+    background: #FFFFFF;
+
+    font-size: 24px;
+    font-family: 'JetBrainsMono';
+
+}

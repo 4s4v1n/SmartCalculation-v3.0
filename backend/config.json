@@ -1,0 +1,25 @@
+{
+    "history_location": "./history.json",
+    "logs_location" : "./logs",
+    "buttons_color":
+    {
+            "red": 100,
+            "green": 12,
+            "blue": 171,
+            "alpha": 100
+    },
+    "labels_color":
+    {
+        "red": 148,
+        "green": 3,
+        "blue": 168,
+        "alpha": 100
+    },
+    "entries_color":
+    {
+      "red": 12,
+      "green": 93,
+      "blue": 165,
+      "alpha": 100
+    }
+}
