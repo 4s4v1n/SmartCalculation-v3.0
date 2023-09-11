@@ -1,4 +1,3 @@
-
 # SmartCalculation-v3.0
 
 Implementation of a calculator with a web interface in React, a service in Golang, and calculations in C++.
