@@ -21,7 +21,7 @@ func main() {
 
 	srv := &http.Server{
 		Handler: mux,
-		Addr:    "localhost:8080",
+		Addr:    ":8080",
 	}
 	go func() {
 		if err := srv.ListenAndServe(); err != nil {
